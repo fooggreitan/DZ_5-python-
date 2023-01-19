@@ -33,6 +33,7 @@ def czah(arr):
 def czahz(r):
     if r == "":
         return ""
+        
     decoded = []
     lenght = 0
 

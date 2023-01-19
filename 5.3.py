@@ -7,9 +7,9 @@
 # проверку на победу( стоят ли крестики или нолик в ряд по диагонали, вертикали, горизонтали)
 
 def draw_board():
-    board_size = 3
-    for i in range(board_size):
-        print(board[i*board_size], board[1 + i*3], board[2 + i*3])
+    boardSize = 3
+    for i in range(boardSize):
+        print(board[i*boardSize], board[1 + i*3], board[2 + i*3])
 
 def start_game():
     currentPlay = 'X'
